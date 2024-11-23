@@ -31,27 +31,35 @@ const HomePage: React.FC = () => {
         <h1 className="text-3xl lg:text-5xl font-extrabold bg-gradient-to-r from-red-600 to-yellow-600 text-transparent bg-clip-text mb-14">
           My Projects
         </h1>
-        <ProjectCards/>
-        <ProjectSection />
+          <ProjectSection />
+      </div>
+
+      <div>
+      <ProjectCards/>
       </div>
 
       {/* Skills Section */}
-      <div className="w-full px-4 sm:px-8 lg:px-12 ">
+      <div className="w-full px-4 sm:px-8 lg:px-12 my-24">
         <Skills />
       </div>
 
       {/* Professional Skills Chart */}
-      <div className="w-full flex items-center justify-center min-h-screen px-4 sm:px-8 lg:px-12  py-30 lg:-py-72">
+      <div className="w-full flex items-center justify-center min-h-screen px-4 sm:px-8 lg:px-12 sm:mb-40 md:mb-10 lg:mb-0 ">
         <ProfessionalSkillsChart />
       </div>
+      <div className="extraspace mt-60 md:-mt-40 lg:-mt-96">
+</div>
 
       {/* Contact Form Section */}
-      <div className="w-full px-4 sm:px-8 lg:px-12 -mt-72 lg:-mt-10">
+      <div className="w-full px-4 sm:px-8 lg:px-12 sm:-mt-0 md:-mt-60 lg-mt-96 sm:mb-60 md:mb-80 lg:mb-96">
         <ContactForm />
-      </div>
 
+      </div>
+      <div className="extraspace mt-60 md:-mt-40 lg:-mt-96">
+      </div>
+      
       {/* Contacts */}
-      <div className="w-full px-4 sm:px-8 lg:px-12 -mt-20 mb-0">
+      <div className="w-full px-4 sm:px-8 lg:px-12 sm:mt-80 md:mt-60 lg:-mt-60">
         <Contacts />
       </div>
     </main>

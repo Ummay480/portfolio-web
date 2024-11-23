@@ -75,39 +75,6 @@ h2 {
 /* border: 1px solid transparent; */
 
 
-/* Polygon card styling */
-.polygon-card {
-  width: 120px;
-  height: 120px;
-  clip-path: polygon(50% 0%, 93% 25%, 93% 75%, 50% 100%, 7% 75%, 7% 25%);
-  background-color: rgba(0, 0, 0, 0.4);
-  backdrop-filter: blur(10px);
-  box-shadow: inset 0 2px 8px rgba(255, 255, 255, 0.6), 0 6px 12px rgba(255, 255, 255, 0.8);
-  transition: all 0.3s ease;
-}
-
-/* Hover effect for glassmorphism and text display */
-.polygon-card:hover {
-  background-color: rgba(255, 255, 255, 0.1);
-  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.4), 0 6px 12px rgba(255, 255, 255, 0.4);
-}
-
-.polygon-card:hover .hover-text {
-  opacity: 1;
-}
-
-/* Label and link on hover */
-.hover-text {
-  opacity: 0;
-  position: absolute;
-  bottom: 5px;
-  color: white;
-  font-size: 12px;
-  font-weight: bold;
-  transition: opacity 0.3s ease;
-  text-align: center;
-  width: 100%;
-}
 
 /* Circle effect on top */
 .circle {

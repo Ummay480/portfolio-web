@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export const Header1: React.FC = () => {
   return (
-    <div className="relative top-0 left-0 right-0 z-10 backdrop-blur-lg shadow-lg border border-white/20 rounded-lg mb-16 bg-yellow-900 bg-opacity-96 ">
+    <div className="relative top-0 left-0 right-0 z-10 backdrop-blur-lg shadow-lg border border-white/20 rounded-lg mb-16 bg-yellow-900 bg-opacity-96">
       {/* Fixed "Let's Connect" image outside the moving icons */}
       <div className="absolute inset-0 flex justify-center items-center z-10">
         <Image

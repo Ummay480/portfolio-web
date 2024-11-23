@@ -1,8 +1,8 @@
 import React from 'react';
-import PolygonCard from '../../components/PolygonCard';
 import ProjectSection from "../../components/ProjectSection";
 import Contacts from "../../components/Contacts";
 import Header3 from "../../components/Header3";
+import ProjectCards from "@/components/ProjectCards";
 
 const ProjectPage: React.FC = () => {
   return (
@@ -17,15 +17,19 @@ const ProjectPage: React.FC = () => {
         <h1 className="flex justify-center text-4xl lg:text-5xl font-extrabold bg-gradient-to-r from-red-600 to-yellow-600 text-transparent bg-clip-text mt-20 lg:mt-40 mb-14 ">
           My Projects
         </h1>
-
-        {/* Adjust PolygonCard positioning on mobile */}
-        <div>
-          <PolygonCard />
+       
+        {/* Adjust ProjectCards positioning on mobile */}
+         <div className="mt-16 mb-10">
+          <ProjectCards />
         </div>
       </div>
-
+      <div className='extraspace h-80'>
+      <h1 className="text-4xl font-bold text-center bg-gradient-to-r from-red-600 to-yellow-600 text-transparent bg-clip-text">
+    Website Design & Development  
+      </h1>
+</div>
       {/* Project Section */}
-      <div className="flex justify-center mt-20 lg:-mt-80">
+      <div className="flex justify-center lg:-mt-96">
         <ProjectSection />
       </div>
 

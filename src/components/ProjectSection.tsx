@@ -3,6 +3,7 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
 
+
 interface Project {
   title: string;
   imageSrc: string;
@@ -15,7 +16,7 @@ const projects: Project[] = [
     title: "Portfolio",
     imageSrc: "/videos/portfolio.mp4",
     isVideo: true,
-    link: "https://portfolio-uq3i.vercel.app/",
+    link: "https://portfolio.example.com/",
   },
   {
     title: "Real Estate",
@@ -93,7 +94,7 @@ const ProjectSection: React.FC = () => {
           />
         ))}
       </div>
-    </section>
+         </section>
   );
 };
 

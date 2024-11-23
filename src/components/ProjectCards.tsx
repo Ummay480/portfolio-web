@@ -51,41 +51,40 @@ const ProjectCards: React.FC = () => {
     <div className="container mx-auto px-4 py-10">
       {/* Header */}
       <h1 className="text-4xl font-bold text-center mb-10 bg-gradient-to-r from-red-600 to-yellow-600 text-transparent bg-clip-text">
-        Projects
+      CLI Projects with Nodejs
       </h1>
 
       {/* Cards */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {projects.map((project) => (
-          <div
-            key={project.id}
-            className="bg-black text-white shadow-lg rounded-lg overflow-hidden transform transition hover:scale-105"
-          >
-            {/* Video Container */}
-            <div className="video-container border border-gray-500 rounded-md p-5 flex items-center justify-center w-full h-72 sm:h-96">
-              <video
-                src={project.videoSrc}
-                autoPlay
-                loop
-                muted
-                className="w-full h-full object-contain rounded-md"
-              ></video>
-            </div>
+         <div
+         key={project.id}
+         className="bg-black text-white shadow-md rounded-md overflow-hidden transform transition hover:scale-105"
+       >
+         {/* Video Container */}
+         <div className="video-container border border-gray-500 rounded-md p-3 flex items-center justify-center w-full h-48 sm:h-64">
+           <video
+             src={project.videoSrc}
+             autoPlay
+             loop
+             muted
+             className="w-full h-full object-contain rounded-md"
+           ></video>
+         </div>
 
-            {/* Content Section */}
-            <div className="p-5">
-              <h2 className="text-xl font-bold mb-2">{project.title}</h2>
-              <p className="text-gray-400 mb-4">{project.description}</p>
-              <a
-                href={project.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-block px-4 py-2 bg-gradient-to-br from-red-600 to-yellow-600 text-white text-sm font-semibold rounded-md shadow-lg hover:bg-red-700 transition duration-300"
-              >
-                View Project
-              </a>
-            </div>
-          </div>
+            <div className="p-3">
+    <h2 className="text-lg font-semibold mb-2">{project.title}</h2>
+    <p className="text-gray-400 text-sm mb-3">{project.description}</p>
+    <a
+      href={project.link}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="inline-block px-3 py-1 bg-gradient-to-br from-red-600 to-yellow-600 text-white text-xs font-medium rounded-md shadow-md hover:bg-red-700 transition duration-300"
+    >
+      View Project
+    </a>
+  </div>
+        </div>
         ))}
       </div>
     </div>
