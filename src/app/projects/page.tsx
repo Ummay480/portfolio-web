@@ -25,7 +25,7 @@ const ProjectPage: React.FC = () => {
       </div>
       <div className='extraspace h-80'>
       <h1 className="text-4xl font-bold text-center bg-gradient-to-r from-red-600 to-yellow-600 text-transparent bg-clip-text">
-    Website Design & Development  
+ 
       </h1>
 </div>
       {/* Project Section */}
