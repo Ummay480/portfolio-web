@@ -12,7 +12,7 @@ const Contactpage: React.FC = () => {
         <Header1 />
       </div>
 
-      <div className="extraspace h-20 mt-40 md:-mt-40 lg:-mt-96">
+      <div className="extraspace h-20 mt-40 md:-mt-40 lg:mt-10">
       </div>
 
       {/* Contact Form with adjusted top margin */}
@@ -23,7 +23,7 @@ const Contactpage: React.FC = () => {
       </div>
 
       {/* Contacts section with adjusted margin */}
-      <div className="flex justify-center mb-10 px-10 mr-10 mt-10 md:mt-40 lg:mt-96">
+      <div className="flex justify-center mb-10 px-10 mr-10 mt-10 md:mt-40 lg:mt-40">
         <Contacts />
       </div>
     </>
