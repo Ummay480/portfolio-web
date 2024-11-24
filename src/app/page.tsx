@@ -6,16 +6,11 @@ import Skills from '../components/Skills';
 import ContactForm from '../components/ContactForm';
 import Contacts from "../components/Contacts";
 import ProfessionalSkillsChart from "../components/ProfessionalSkillsChart";
-import ProjectCards from "@/components/ProjectCards";
-
+import ProjectCards from "../components/ProjectCards"; // Correct relative path
 
 const HomePage: React.FC = () => {
   return (
     <main className="flex flex-col items-center justify-center min-h-screen bg-[#121212] overflow-x-hidden">
-      <div className="text-center">
-        {/* Intro or main heading could go here */}
-      </div>
-
       {/* Hero Section */}
       <div className="w-full px-20 sm:px-8 lg:px-12 py-4 mt-10">
         <HeroSection />
@@ -25,41 +20,37 @@ const HomePage: React.FC = () => {
       <div className="w-full flex items-center justify-center bg-[#121212] px-4 sm:px-8 lg:px-12">
         <AboutMe />
       </div>             
-        
+
       {/* Project Section */}
       <div className="w-full flex flex-col items-center py-5 my-10 bg-[#121212]">
         <h1 className="text-3xl lg:text-5xl font-extrabold bg-gradient-to-r from-red-600 to-yellow-600 text-transparent bg-clip-text mb-14">
           My Projects
         </h1>
-          <ProjectSection />
+        <ProjectSection />
       </div>
 
       <div>
-      <ProjectCards/>
+        <ProjectCards />
       </div>
 
       {/* Skills Section */}
-      <div className="w-full px-4 sm:px-8 lg:px-12 my-24">
+      <div className="w-full px-4 sm:px-8 lg:px-12 mt-24">
         <Skills />
       </div>
 
       {/* Professional Skills Chart */}
-      <div className="w-full flex items-center justify-center min-h-screen px-4 sm:px-8 lg:px-12 sm:mb-40 md:mb-10 lg:mb-0 ">
+      <div className="w-full flex items-center justify-center min-h-screen px-4 sm:px-8 lg:px-12 mb-20 mt-10">
         <ProfessionalSkillsChart />
       </div>
-      <div className="extraspace mt-60 md:-mt-40 lg:-mt-96">
-</div>
 
       {/* Contact Form Section */}
-      <div className="w-full px-4 sm:px-8 lg:px-12 sm:-mt-0 md:-mt-60 lg-mt-96 sm:mb-60 md:mb-80 lg:mb-96">
+      <div className="w-full px-4 sm:px-8 lg:px-12 mt-60 md:mt-20 lg:-mt-60 lg:mb-60">
         <ContactForm />
-
       </div>
-      <div className="extraspace mt-60 md:-mt-40 lg:-mt-96">
-      </div>
-      
+      <div className="extraspace sm:h-80 mt-60 md:-mt-10 lg:-mt-72"></div>
+  
       {/* Contacts */}
-      <div className="w-full px-4 sm:px-8 lg:px-12 sm:mt-80 md:mt-60 lg:-mt-60">
+      <div className="w-full px-4 sm:px-8 lg:px-12 lg:mt-60">
         <Contacts />
       </div>
     </main>
