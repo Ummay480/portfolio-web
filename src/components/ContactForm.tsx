@@ -91,12 +91,13 @@ const ContactForm: React.FC = () => {
             />
           </div>
                     <a href="mailto:kulsoom0324@gmail.com">
-            <button
-              type="button"
-              className="wrap-flex justify-center w-full max-w-xs mx-auto lg:px-6 py-3 ml-16 rounded-lg bg-gradient-to-br from-red-600 to-yellow-600 hover:bg-red-700 text-white text-sm lg:text-lg font-semibold transition duration-300 ease-in-out shadow-lg block text-center -mb-96"
-            >
-              Send a message
-            </button>
+                    <button
+                type="button"
+                className="w-full py-3 rounded-lg bg-gradient-to-br from-red-600 to-yellow-600 hover:bg-red-700 text-white text-sm lg:text-lg font-semibold transition duration-300 ease-in-out shadow-lg text-center"
+              >
+                Send a message
+              </button>
+
           </a>
 
         </form>

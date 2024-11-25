@@ -5,6 +5,7 @@ import React, { useState, useCallback } from "react";
 import NavLink from "./NavLink";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import MenuOverlay from "./MenuOverlay";
+import Image from 'next/image';
 
 const navLinks = [
   { title: "Home", path: "/" },
@@ -25,12 +26,18 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 z-20 right-0 laft-0 w-full bg-gradient-to-r from-red-600 to-yellow-600 -ml-5 px-8 lg:px-40">
       <div className="container mx-auto flex items-center justify-between px-6 md:px-8 py-4 md:max-w-4xl lg:max-w-6xl">
-        <Link
-          href="/"
-          className="text-3xl font-extrabold text-#ffff bg-clip-text -ml-6 md:-ml-20 lg:ml-40"
-        >
-          Ummay.K
-        </Link>
+      <Link
+  href="/"
+  className="text-3xl font-extrabold text-white bg-clip-text -ml-6 md:-ml-20 lg:ml-40"
+>
+  <Image
+    src="/images/profile-logo.png"
+    alt="profile-logo"
+    width={400}
+    height={200}
+    className="w-16 md:w-24 lg:w-28 lg:ml-20"
+  />
+</Link>;
 
         {/* Hamburger menu for small screens only */}
         <div className="block md:hidden">
@@ -49,7 +56,7 @@ const Navbar = () => {
           <ul className="flex flex-row items-center space-x-8">
             {navLinks.map((link, index) => (
               <li key={index}>
-                <NavLink href={link.path} title={link.title} onClick={closeNavbar} className="text-gray-900" />
+                <NavLink href={link.path} title={link.title} onClick={closeNavbar} className="text-white" />
               </li>
             ))}
           </ul>
