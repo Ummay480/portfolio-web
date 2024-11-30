@@ -24,8 +24,8 @@ const Navbar = () => {
   const closeNavbar = () => setNavbarOpen(false);
 
   return (
-    <nav className="fixed top-0 z-20 right-0 laft-0 w-full bg-gradient-to-r from-red-600 to-yellow-600 -ml-5 px-8 lg:px-40">
-      <div className="container mx-auto flex items-center justify-between px-6 md:px-8 py-4 md:max-w-4xl lg:max-w-6xl">
+    <nav className="fixed top-0 z-20 right-0 laft-0 w-full h-24 bg-gradient-to-r from-red-600 to-yellow-600 -ml-5 px-8 lg:px-40">
+      <div className="container mx-auto flex items-center justify-between px-6 md:px-8 py-8 md:max-w-4xl lg:max-w-6xl">
       <Link
   href="/"
   className="text-3xl font-extrabold text-white bg-clip-text -ml-6 md:-ml-20 lg:ml-40"
@@ -35,7 +35,7 @@ const Navbar = () => {
     alt="logo"
     width={200}
     height={100}
-    className="w-16 md:w-24 lg:w-28 lg:ml-20"
+    className="absolute -mt-8 w-16 md:w-24 lg:w-28 lg:ml-20"
   />
 </Link>;
 
