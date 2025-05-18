@@ -24,7 +24,7 @@ const skills = [
 
 const Skills = () => {
   return (
-    <section className="pt-12 bg-[#121212]">
+    <section className="pt-2 bg-[#121212]">
       <div className="container mx-auto text-center">
         <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-8">
           <span className="text-3xl lg:5xl font-extrabold bg-gradient-to-r from-red-600 to-yellow-600 text-transparent bg-clip-text">
@@ -33,7 +33,7 @@ const Skills = () => {
         </h2>
 
         {/* Container for skill logos with globe rotation */}
-        <div className="relative w-full lg:h-96 h-72 animate-rotate-globe flex justify-center items-center mt-10 -mb-96">
+        <div className="relative w-full lg:h-96 h-72 animate-rotate-globe flex justify-center items-center mt-2 -mb-96">
           {skills.map((skill, index) => (
             <div
               key={index}
