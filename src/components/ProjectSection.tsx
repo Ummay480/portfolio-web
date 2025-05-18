@@ -115,5 +115,6 @@ const ProjectSection: React.FC = () => {
          </section>
   );
 };
+export default ProjectSection;
 
 
