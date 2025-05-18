@@ -12,7 +12,7 @@ const HomePage: React.FC = () => {
   return (
     <main className="flex flex-col items-center justify-center min-h-screen bg-[#121212] overflow-x-hidden">
       {/* Hero Section */}
-      <div className="w-full px-20 sm:px-8 lg:px-12 py-4 mt-10">
+      <div className="w-full px-20 sm:px-8 lg:px-12 py-4 mt-1">
         <HeroSection />
       </div>
 
