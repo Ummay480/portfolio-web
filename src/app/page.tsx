@@ -34,7 +34,7 @@ const HomePage: React.FC = () => {
       </div>
 
       {/* Skills Section */}
-      <div className="w-full px-4 sm:px-8 lg:px-12 mt-24">
+      <div className="w-full px-4 sm:px-8 lg:px-12 mt-10">
         <Skills />
       </div>
 
