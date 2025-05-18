@@ -116,4 +116,4 @@ const ProjectSection: React.FC = () => {
   );
 };
 
-export default ProjectSection;
+
