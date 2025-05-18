@@ -13,7 +13,7 @@ const skillsData = [
 
 const ProfessionalSkillsChart: React.FC = () => {
   return (
-    <div className="flex flex-col items-center class mt-80 md:mt-8 lg:-mt-52 ">
+    <div className="flex flex-col items-center mt-8 md:-mt-60 lg:mt-0">
       {/* Section Title */}
       <div className="text-center mb-10 px-4">
         <TypeAnimation

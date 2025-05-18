@@ -31,10 +31,10 @@ const Navbar = () => {
   className="text-3xl font-extrabold text-white bg-clip-text -ml-6 md:-ml-20 lg:ml-40"
 >
   <Image
-    src="/images/logo2.png"
+    src="/images/logo-02.png"
     alt="logo"
-    width={200}
-    height={100}
+    width={600}
+    height={400}
     className="absolute -mt-8 w-16 md:w-24 lg:w-28 lg:ml-20"
   />
 </Link>;

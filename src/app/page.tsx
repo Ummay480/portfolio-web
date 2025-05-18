@@ -34,23 +34,23 @@ const HomePage: React.FC = () => {
       </div>
 
       {/* Skills Section */}
-      <div className="w-full px-4 sm:px-8 lg:px-12 mt-24">
+      <div className="w-full px-4 sm:px-8 lg:px-12 mt-2">
         <Skills />
       </div>
 
       {/* Professional Skills Chart */}
-      <div className="w-full flex items-center justify-center min-h-screen px-4 sm:px-8 lg:px-12 mb-20 mt-10">
+      <div className="w-full flex items-center justify-center min-h-screen px-4 sm:px-8 lg:px-12 mt-2 md:-mt-80 mb-60">
         <ProfessionalSkillsChart />
       </div>
 
       {/* Contact Form Section */}
-      <div className="w-full px-4 sm:px-8 lg:px-12 mt-60 md:mt-20 lg:-mt-60 lg:mb-60">
+      <div className="w-full px-4 sm:px-8 lg:px-12 mt-60 md:mt-80 lg:-mt-60 lg:mb-60">
         <ContactForm />
       </div>
-      <div className="extraspace sm:h-80 mt-60 md:-mt-10 lg:-mt-72"></div>
+      <div className="extraspace sm:h-80 mt-60 md:-mt-60 lg:-mt-72 -mb-40"></div>
   
       {/* Contacts */}
-      <div className="w-full px-4 sm:px-8 lg:px-12 lg:mt-60">
+      <div className="w-full px-4 sm:px-8 lg:px-12 md:-mt-40 lg:mt-60">
         <Contacts />
       </div>
     </main>

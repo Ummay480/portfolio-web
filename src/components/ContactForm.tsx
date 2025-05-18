@@ -24,7 +24,7 @@ const ContactForm: React.FC = () => {
   };
 
   return (
-    <div className="flex justify-center items-center sm:mt-96 md:mt-80 sm:-mb-32 lg:-mb-40 -ml-10">
+    <div className="flex justify-center items-center sm:mt-96 md:mt-96 sm:-mb-32 md:-mb-60 lg:-mb-40 -ml-10">
    
       <div className="w-full max-w-3xl px-4">
         <h2 className="text-center text-3xl md:5xl lg:6xl mb-16 font-extrabold bg-gradient-to-r from-red-600 to-yellow-600 text-transparent bg-clip-text -mt-96">
