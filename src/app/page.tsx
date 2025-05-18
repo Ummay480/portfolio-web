@@ -39,7 +39,7 @@ const HomePage: React.FC = () => {
       </div>
 
       {/* Professional Skills Chart */}
-      <div className="w-full flex items-center justify-center min-h-screen px-4 sm:px-8 lg:px-12 mb-20 mt-10">
+      <div className="w-full flex items-center justify-center min-h-screen px-4 sm:px-8 lg:px-12 my-10">
         <ProfessionalSkillsChart />
       </div>
 
